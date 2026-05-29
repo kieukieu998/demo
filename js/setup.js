@@ -508,6 +508,7 @@ $(function () {
       const jsCode = `$(function () {
                 var list07Swiper = new Swiper('.list07-swiper', {
                     loop: true,
+                    watchOverflow: true,
                     autoplay: {
                         delay: 4000,
                         disableOnInteraction: false,
